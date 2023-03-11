@@ -1,0 +1,21 @@
+{
+  "name": "redux-test-apps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@reduxjs/toolkit": "*",
+    "@amnis/eslint-config-node": "^2.2.4",
+    "@amnis/eslint-config-react": "^2.2.4",
+    "@types/node": "^18.15.0",
+    "eslint": "^8.35.0",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "typescript": "^4.9.5"
+  }
+}

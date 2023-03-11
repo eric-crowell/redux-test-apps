@@ -1,0 +1,5 @@
+packages:
+  # Test applications
+  - 'apps/*'
+  # Artifacts to test against
+  - 'artifacts/*'

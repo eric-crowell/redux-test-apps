@@ -1,0 +1,8 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "types": ["vitest/globals"],
+    "strict": true
+  },
+  "files": ["./vite.globalSetup.d.ts"]
+}
