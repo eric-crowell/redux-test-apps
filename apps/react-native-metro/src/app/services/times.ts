@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query'
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query';
 
 interface TimeResponse {
   time: string
@@ -18,4 +18,6 @@ export const timeApi = createApi({
       providesTags: (_result, _err, id) => [{ type: 'Time', id }],
     }),
   }),
-})
+});
+
+export default timeApi;

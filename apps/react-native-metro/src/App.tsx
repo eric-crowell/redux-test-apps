@@ -1,11 +1,12 @@
+/* eslint-disable react/style-prop-object */
 import React from 'react';
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import Counter from './features/counter/Counter';
 import { Provider } from 'react-redux';
-import { store } from './app/store';
-import TimeDisplay from './features/time/Time';
-import Post from './features/post/Post';
+import Counter from './features/counter/Counter.js';
+import { store } from './app/store.js';
+import TimeDisplay from './features/time/Time.js';
+import Post from './features/post/Post.js';
 
 export default function App() {
   return (

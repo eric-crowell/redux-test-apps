@@ -1,4 +1,4 @@
-import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react'
+import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 
 export interface Post {
   id: number
@@ -16,6 +16,6 @@ export const postApi = createApi({
       providesTags: (_result, _err, id) => [{ type: 'Posts', id }],
     }),
   }),
-})
+});
 
-export const { useGetPostQuery } = postApi
+export const { useGetPostQuery } = postApi;
